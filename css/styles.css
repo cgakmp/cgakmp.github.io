@@ -36,12 +36,14 @@ html {
 
 body, p {
 	color: #f1f1f8; 
-	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+	font: 400 0.75rem/1.375rem "Open Sans", sans-serif;
+	
+	
 }
 
 .p-large {
-	color: #f1f1f8;
-	font: 400 1rem/1.5rem "Open Sans", sans-serif;
+	color: #192714;
+	font: 600 1.5rem/1.5rem "Open Sans", sans-serif;
 }
 
 .p-small {
@@ -63,7 +65,7 @@ body, p {
 }
 
 h1 {
-	color: #f1f1f8;
+	color:#094297fd;
 	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
 }
 
@@ -103,7 +105,7 @@ a:hover {
 }
 
 a.turquoise {
-	color: #00c9db;
+	color: #f1f1f8;
 }
 
 a.white {
@@ -385,13 +387,11 @@ input[type='checkbox'] {
 	margin-bottom: 0;
 	color: #f1f1f8;
 	font: 400 1.125rem/1rem "Open Sans", sans-serif;
-	
 }
 
 .help-block.with-errors .list-unstyled {
 	color: #f1f1f8;
-	/*font-size: 0.75rem;*/
-	/*font-size: 20pt;*/
+	font-size: 0.75rem;
 	line-height: 1.125rem;
 	text-align: left;
 }
@@ -627,15 +627,18 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
+	/*background-color: #32a6e9;*/
+background-color:#fff;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	font: 700 0.75rem/2rem "Montserrat", sans-serif;
+	/*font: 700 0.75rem/2rem "Montserrat", sans-serif;*/
+	/*font:500 1rem/1rem "Montserrat", sans-serif; /*title menu font size*/
+	font:700 1.2rem/2.5rem "Montserrat", sans-serif;
 	transition: all 0.2s;
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-	height: 34px;
+    width: 300px;
+	/*height: 34px;*/
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
@@ -653,14 +656,14 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0 0.75rem 0 0.75rem;
-	color: #fff;
+	color: #1665b7;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #00c9db;
+	color: #4633af;
 }
 
 /* Dropdown Menu */
@@ -701,7 +704,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 700 0.75rem/1.5rem "Montserrat", sans-serif;
+/*	font: 500 0.75rem/1.5rem "Montserrat", sans-serif;*/
+font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
@@ -724,7 +728,8 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-toggler {
 	border: none;
-	color: #fff;
+	color: #32a6e9;
+	
 	font-size: 2rem;
 }
 
@@ -752,6 +757,7 @@ input[type='checkbox'] {
 .header {
 	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
+	
 }
 
 .header .header-content {
@@ -769,7 +775,7 @@ input[type='checkbox'] {
 }
 
 .header #js-rotating {
-	color: #40e0ee;
+	color: #E50011;
 }
 
 .header .p-large {
@@ -1012,6 +1018,7 @@ input[type='checkbox'] {
 
 .basic-1 .image-container img {
 	border-radius: 0.375rem;
+	text-align:center;
 }
 
 .basic-1 .video-wrapper {
@@ -1517,7 +1524,7 @@ a:hover.back-to-top {
 
 .ex-basic-2 .text-container.dark-bg {
 	padding: 1.625rem 1.5rem 0.75rem 2rem;
-	background-color: #f9fafc;
+	background-color: #234891;
 }
 
 
@@ -1532,12 +1539,10 @@ a:hover.back-to-top {
 		width: 85%;
 		margin-right: auto;
 		margin-left: auto;
-		
 	}
 
 	h1 {
 		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
-		/*font-size: large;*/
 	}
 	/* end of general styles */
 
@@ -1546,8 +1551,7 @@ a:hover.back-to-top {
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
 		box-shadow: none;
-		background: transparent;
-		font-size: 14pt; /*title menu */
+        background: transparent;
 	}
 	
 	.navbar-custom .navbar-brand.logo-text {
@@ -1560,18 +1564,18 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #fff;
+		color:#1665b7;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #00c9db;
+		color:#0d00db;
 	}
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-		background-color: #4633af;
+		background-color: #fff;
 	}
 
 	.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
@@ -1579,12 +1583,12 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #fff;
+		color:#1665b7;
 	}
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00c9db;
+		color:#0d00db;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1592,8 +1596,8 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .dropdown-item {
-		padding-top: 0.25rem;
-		padding-bottom: 0.25rem;
+		*padding-top: 0.1rem;
+		padding-bottom: 0.1rem;/*dropdown-item button size*/
 	}
 
 	.navbar-custom .dropdown-items-divide-hr {
@@ -1605,7 +1609,6 @@ a:hover.back-to-top {
 	/* Header */
 	.header .header-content {
 		padding-top: 11rem;
-		
 	}
 	/* end of header */
 
@@ -1621,7 +1624,6 @@ a:hover.back-to-top {
 		right: 1rem;
 		width: 1.375rem;
 		background-size: 1.375rem 2.125rem;
-		
 	}
 	/* end of testimonials */
 
@@ -1961,10 +1963,12 @@ a:hover.back-to-top {
 	.header .text-container {
 		margin-top: 7.5rem;
 		margin-left: 2.5rem;
+	
 	}
 
 	.header .image-container {
 		margin-left: 3rem;
+		text-align:center;
 	}
 	/* end of header */
 
