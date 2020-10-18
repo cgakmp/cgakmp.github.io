@@ -479,7 +479,7 @@ mark,
 .img-fluid {
   max-width: 50%;
   height: auto;
-  text-align:right;
+ 
 }
 
 .img-thumbnail {
@@ -4284,7 +4284,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 743.98px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
@@ -4292,7 +4292,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 967px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
