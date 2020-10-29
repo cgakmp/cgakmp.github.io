@@ -477,7 +477,12 @@ mark,
 }
 
 .img-fluid {
-  max-width: 50%;
+  max-width: 70%;
+  height: auto;
+ 
+}
+.img-fluid1 {
+  max-width: 100%;
   height: auto;
  
 }
@@ -574,7 +579,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 
