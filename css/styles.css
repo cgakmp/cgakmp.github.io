@@ -794,8 +794,8 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 /*     05. Testimonials     */
 /****************************/
 .slider-1 {
-	padding-top: 6.875rem;
-	padding-bottom: 6.375rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 	background-color: rgb(216, 211, 248);
 }
 
@@ -1819,6 +1819,7 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 	/* end of extra pages */
+	
 }
 /* end of min-width width 768px */
 
@@ -2094,6 +2095,7 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 	}
 	/* end of extra pages */
+	
 }
 /* end of min-width width 992px */
 
@@ -2257,5 +2259,19 @@ a:hover.back-to-top {
 		margin-left: 1.75rem;
 	}
 	/* end of extra pages */
+
+
+	
+	
 }
 /* end of min-width width 1200px */
+	/*生涯規劃*/
+	.text_Career_Planning{
+		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
+	}
+	.text_Career_Planning1{
+		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
+		text-align: left;
+		
+	}
+

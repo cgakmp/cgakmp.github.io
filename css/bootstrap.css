@@ -563,24 +563,40 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .style1{
+		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
+		width: 25%;
+	}
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+  .style1{
+		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
+		width: 15%;
+	}
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+  .style1{
+		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
+		width: 17%;
+	}
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1500px;
   }
+  .style1{
+		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
+		width: 17%;
+	}
 }
 
 .container-fluid {
