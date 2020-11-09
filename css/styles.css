@@ -844,6 +844,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 
 .slider-1 .card-body {
 	padding-bottom: 0;
+	
 }
 
 .slider-1 .testimonial-author {
@@ -912,6 +913,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 
 .tabs .card-body {
 	padding: 1rem 0 1.25rem 0;
+	
 }
 
 .tabs .card-title {
@@ -952,7 +954,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 }
 
 .tabs #tab-1 .card.right-pane .text-wrapper {
-	display: inline-block;
+	display: inline;
 	width: 75%;
 }
 
@@ -961,7 +963,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 }
 
 .tabs #tab-2 img {
-	display: block;
+	display: inline;
 	margin: 0 auto 2rem auto;
 }
 
@@ -1881,8 +1883,38 @@ a:hover.back-to-top {
 
 
 	/* Features */
+
+	.tabs #work1 .card.left-pane {
+		text-align: right;
+		display: inline;
+	}
+
+	.tabs #work1 .card.left-pane .text-wrapper,
+	.tabs #work1 .card.right-pane .text-wrapper {
+		width: 68%;
+		display: inline;
+	}
+
+	.tabs #work1 .card.left-pane .card-icon {
+		float: none;
+		margin-right: 0;
+		margin-left: 1rem;
+	}
+
+	.tabs #work1 img {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+
+	.tabs .card-body1 {
+		padding: 1rem 0 1.5rem 0;
+		display:inline;
+	}
+
 	.tabs .card-body {
 		padding: 1rem 0 1.5rem 0;
+		
 	}
 	
 	.tabs #tab-1 .card.left-pane {
@@ -2150,7 +2182,8 @@ a:hover.back-to-top {
 
 	.tabs #tab-1 .card.left-pane .text-wrapper,
 	.tabs #tab-1 .card.right-pane .text-wrapper {
-		width: 73%;
+		width: 23%;
+		display:inline;
 	}
 
 	.tabs #tab-1 img {
