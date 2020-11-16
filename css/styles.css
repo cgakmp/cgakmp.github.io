@@ -46,6 +46,11 @@ body, p {
 	font: 600 1.5rem/1.5rem "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
 }
 
+.p-large1 {
+	color: #f1f1f8;
+	font: 400 1.2rem/1.5rem "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+
 .p-small {
 	color: #f1f1f8;
 	font: 400 0.75rem/1.25rem "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
@@ -918,7 +923,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 
 .tabs .card-title {
 	margin-bottom: 0.5rem;
-
+    text-align:center;
 }
 
 .tabs .card .card-icon {
@@ -2162,6 +2167,8 @@ a:hover.back-to-top {
 
 	.header .image-container {
 		margin-left: 3rem;
+		
+
 		text-align:center;
 	}
 	/* end of header */
