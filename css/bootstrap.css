@@ -479,7 +479,7 @@ mark,
 .img-fluid {
  
   height: auto;
- width:90%;
+ width:75%;
 
  margin-bottom: -16px;
 }
@@ -593,7 +593,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1500px;
+    max-width: 3000px;
   }
   .style1{
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
