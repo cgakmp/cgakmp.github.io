@@ -86,7 +86,7 @@ h3 {
 
 h4 {
 	color: #1b1b1f;
-	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+	font: 700 1.2rem/1.5rem "Montserrat", sans-serif;
 }
 
 h5 {
@@ -861,7 +861,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 /*     05. Features     */
 /************************/
 .tabs {
-	padding-top: 6.5rem;
+/*	padding-top: 6.5rem;*/
 	padding-bottom: 4.25rem;
 	background-color:#a6dbfa;
 }
@@ -877,7 +877,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 
 .tabs .nav-tabs {
 	margin-right: auto;
-	margin-bottom: 2.5rem;
+/*	margin-bottom: 2.5rem;*/
 	margin-left: auto;
 	justify-content: center;
 	border-bottom: none;
@@ -945,7 +945,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 
 .tabs #tab-1 .card.left-pane .text-wrapper {
 	display: inline-block;
-	width: 75%;
+	width: 90%;
 }
 
 .tabs #tab-1 .card.left-pane .card-icon {
@@ -960,7 +960,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 
 .tabs #tab-1 .card.right-pane .text-wrapper {
 	display: inline;
-	width: 75%;
+	width: 90%;
 }
 
 .tabs #tab-1 .card.right-pane .card-icon {
@@ -2177,11 +2177,11 @@ a:hover.back-to-top {
 
 	/* Features */
 	.tabs {
-		padding-bottom: 6.5rem;
+		/*padding-bottom: 6.5rem;*/
 	}
 
 	.tabs #tab-1 .card.first {
-		margin-top: 4.25rem;
+		/*margin-top: 4.25rem;*/
 	}
 
 	.tabs #tab-1 .card {
@@ -2311,6 +2311,7 @@ a:hover.back-to-top {
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
 	}
 	.text_Career_Planning1{
+		padding-top: 30px;
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
 		text-align: left;
 		

@@ -561,12 +561,12 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 400px) {
   .container {
     max-width: 540px;
   }
   .style1{
-		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
+		font:400 1rem/1.5rem "Montserrat", sans-serif;
 		width: 25%;
 	}
 }
