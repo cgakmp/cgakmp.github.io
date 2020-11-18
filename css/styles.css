@@ -768,8 +768,8 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 }
 
 .header .header-content {
-	padding-top: 7.5rem;
-	padding-bottom: 7rem;
+	padding-top: 10rem;
+/*	padding-bottom: 7rem;*/
 	text-align: center;
 }
 
@@ -1626,6 +1626,7 @@ a:hover.back-to-top {
 /* Min-width width 768px */
 @media (min-width: 943px) {
 	
+	
 	/* General Styles */
 	.p-heading {
 		width: 85%;
@@ -1876,7 +1877,7 @@ a:hover.back-to-top {
 	/* Header */
 	.header .header-content {
 		padding-top: 11rem;
-		padding-bottom: 1rem;
+		padding-bottom: 0rem;
 		text-align: left;
 	}
 

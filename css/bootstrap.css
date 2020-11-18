@@ -483,11 +483,14 @@ mark,
 
  margin-bottom: -16px;
 }
+
 .img-fluid1 {
+  margin-top: 12rem;
   max-width: 100%;
   height: auto;
  
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -5441,6 +5444,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 @media (min-width: 576px) {
+ 
   .list-group-horizontal-sm {
     -ms-flex-direction: row;
     flex-direction: row;
