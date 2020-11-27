@@ -3122,7 +3122,7 @@ input[type="button"].btn-block {
   right: 0;
   left: auto;
 }
-
+/*
 @media (min-width: 576px) {
   .dropdown-menu-sm-left {
     right: auto;
@@ -3132,9 +3132,9 @@ input[type="button"].btn-block {
     right: 0;
     left: auto;
   }
-}
+}*/
 
-@media (min-width: 768px) {
+@media (min-width: 943px) {
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
@@ -3145,7 +3145,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
