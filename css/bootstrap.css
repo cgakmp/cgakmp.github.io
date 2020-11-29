@@ -476,13 +476,7 @@ mark,
   content: "\2014\00A0";
 }
 
-.img-fluid {
- 
-  height: auto;
- width:75%;
 
- margin-bottom: -16px;
-}
 
 .img-fluid1 {
   margin-top: 12rem;
@@ -571,7 +565,23 @@ pre code {
   .style1{
 		font:400 1rem/1.5rem "Montserrat", sans-serif;
 		width: 25%;
-	}
+  }
+  .style2{
+		font:400 1rem/1.5rem "Montserrat", sans-serif;
+		text-align:justify;
+  }
+  .style3{
+		font:400 1rem/1.5rem "Montserrat", sans-serif;
+    text-align:justify;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .img-fluid {
+ 
+    height: auto;
+   width:80%;
+   margin-bottom: -5px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -584,9 +594,9 @@ pre code {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .container {
-    max-width: 960px;
+    max-width: 1180px;
   }
   .style1{
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
@@ -600,8 +610,23 @@ pre code {
   }
   .style1{
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
-		width: 17%;
-	}
+		width: 13%;
+  }
+  .style2{
+		font:400 1.2rem/2.5rem "Montserrat", sans-serif;
+		text-align:justify;
+  }
+  .style3{
+    font:400 1.2rem/2.55rem "Montserrat", sans-serif;
+    text-align:center;
+  }
+  .img-fluid {
+ 
+    height: auto;
+   width:50%;
+  
+   margin-bottom: -5px;
+  }
 }
 
 .container-fluid {
@@ -1200,7 +1225,7 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1249,6 +1274,20 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    
+  }
+
+  .col-lg-6_1 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 47%;
+    max-width: 40%;
+    padding-top: 10px;
+  }
+  .col-lg-6_2 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 53%;
+    max-width: 60%;
+    
   }
   .col-lg-7 {
     -ms-flex: 0 0 58.333333%;
@@ -4372,7 +4411,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .navbar-expand-lg {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -5488,7 +5527,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .list-group-horizontal-lg {
     -ms-flex-direction: row;
     flex-direction: row;
@@ -5970,10 +6009,10 @@ a.close.disabled {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .modal-lg,
   .modal-xl {
-    max-width: 800px;
+    max-width: 1100px;
   }
 }
 
@@ -6865,7 +6904,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .d-lg-none {
     display: none !important;
   }
@@ -7452,7 +7491,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .flex-lg-row {
     -ms-flex-direction: row !important;
     flex-direction: row !important;
@@ -7766,7 +7805,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .float-lg-left {
     float: left !important;
   }
@@ -9078,7 +9117,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -9826,7 +9865,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1005px) {
   .text-lg-left {
     text-align: left !important;
   }
@@ -10041,10 +10080,10 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3;
   }
   body {
-    min-width: 992px !important;
+    min-width: 1005px !important;
   }
   .container {
-    min-width: 992px !important;
+    min-width: 1005px !important;
   }
   .navbar {
     display: none;

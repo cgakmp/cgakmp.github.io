@@ -2396,10 +2396,11 @@ a:hover.back-to-top {
 /* end of min-width width 1200px */
 	/*生涯規劃*/
 	.text_Career_Planning{
+		
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
 	}
 	.text_Career_Planning1{
-		padding-top: 30px;
+		padding-top: 10px;
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
 		text-align: left;
 		
