@@ -582,6 +582,35 @@ pre code {
    width:80%;
    margin-bottom: -5px;
   }
+  .text-wrapper1 {
+    display: inline-block;
+    width: 60%;
+    text-align:left;
+  }
+  .text-wrapper2 {
+    display: inline-block;
+    width: 60%;
+    text-align:left;
+  }
+  .card-title1 {
+    margin-bottom: 0.5rem;
+      text-align:left;
+  }
+  .card-title1_1 {
+    margin-bottom: 0.5rem;
+      text-align:left;
+  }
+  .card-title2 {
+    margin-bottom: 0.5rem;
+      text-align:left;
+  }
+  .card-title3 {
+    margin-bottom: 0.5rem;
+      text-align:left;
+  }
+  .item3{
+    text-align:justify;
+  }
 }
 
 @media (min-width: 768px) {
@@ -591,7 +620,8 @@ pre code {
   .style1{
 		font:700 1.2rem/2.5rem "Montserrat", sans-serif;
 		width: 15%;
-	}
+  }
+ 
 }
 
 @media (min-width: 1005px) {
@@ -626,6 +656,36 @@ pre code {
    width:50%;
   
    margin-bottom: -5px;
+  }
+  .text-wrapper1 {
+    display: inline-block;
+    width: 60%;
+    text-align:right;
+  }
+  .text-wrapper2 {
+    display: inline-block;
+    width: 60%;
+    text-align:left;
+  }
+  .card-title {
+    margin-bottom: 0.5rem;
+      text-align:center;
+  }
+  .card-title1 {
+    margin-bottom: 0.5rem;
+      text-align:right;
+  }
+  .card-title1_1 {
+    margin-bottom: 0.5rem;
+      text-align:left;
+  }
+  .card-title2 {
+    margin-bottom: 0.5rem;
+      text-align:right;
+  }
+  .card-title3 {
+    margin-bottom: 0.5rem;
+      text-align:left;
   }
 }
 
@@ -9887,6 +9947,7 @@ button.bg-dark:focus {
   .text-xl-center {
     text-align: center !important;
   }
+  
 }
 
 .text-lowercase {
