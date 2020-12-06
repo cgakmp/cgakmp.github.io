@@ -589,9 +589,15 @@ pre code {
   }
   .text-wrapper2 {
     display: inline-block;
-    width: 60%;
-    text-align:left;
+    width: 55%;}
+    .style1{
+      font:400 1rem/1.2rem "Montserrat", sans-serif;
+     width:30%;
   }
+  .style2{
+    font:400 1rem/1.2rem "Montserrat", sans-serif;
+   
+}
   .card-title1 {
     margin-bottom: 0.5rem;
       text-align:left;
@@ -610,6 +616,11 @@ pre code {
   }
   .item3{
     text-align:justify;
+  }
+  .details1{
+    padding-left: 1.5rem;
+    width:95%;
+   
   }
 }
 
@@ -686,6 +697,10 @@ pre code {
   .card-title3 {
     margin-bottom: 0.5rem;
       text-align:left;
+  }
+  .details1{
+    width:95%;
+    display: flex;
   }
 }
 
@@ -1345,7 +1360,7 @@ pre code {
   }
   .col-lg-6_2 {
     -ms-flex: 0 0 50%;
-    flex: 0 0 53%;
+    flex: 0 0 55%;
     max-width: 60%;
     
   }

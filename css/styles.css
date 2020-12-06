@@ -1802,7 +1802,7 @@ a:hover.back-to-top {
 	}
 
 	.tabs #tab-1 .card.left-pane .text-wrapper {
-		width: 85%;
+		width: 100%;
 	}
 
 	.tabs #tab-2 .card.left-pane .text-wrapper {
@@ -1998,24 +1998,20 @@ a:hover.back-to-top {
 		
 	}
 	
-	.tabs #tab-1 .card.left-pane {
-		text-align: right;
+
+	
+
+	.tabs #tab-1 .icon-cards-area {
+		margin-top: 2.25rem;
 	}
 
-	.tabs #tab-1 .card.left-pane .text-wrapper,
-	.tabs #tab-1 .card.right-pane .text-wrapper {
-		width: 68%;
+	.tabs #tab-1 .icon-cards-area .card {
+		width: 45%;
+		margin-right: 3.5rem;
 	}
 
-	.tabs #tab-1 .card.left-pane .card-icon {
-		float: none;
-		margin-right: 0;
-		margin-left: 1rem;
-	}
-
-	.tabs #tab-1 img {
-		margin-top: 0;
-		margin-bottom: 0;
+	.tabs #tab-1 .icon-cards-area .card p {
+		margin-bottom: 0.5rem;
 	}
 	
 	.tabs #tab-2 .icon-cards-area {
@@ -2041,24 +2037,17 @@ a:hover.back-to-top {
 	}
 
 
-	.tabs #tab-4 .card.left-pane {
-		text-align: right;
+	.tabs #tab-4 .icon-cards-area {
+		margin-top: 2.25rem;
 	}
 
-	.tabs #tab-4 .card.left-pane .text-wrapper,
-	.tabs #tab-4 .card.right-pane .text-wrapper {
-		width: 68%;
+	.tabs #tab-4 .icon-cards-area .card {
+		width: 45%;
+		margin-right: 3.5rem;
 	}
 
-	.tabs #tab-4 .card.left-pane .card-icon {
-		float: none;
-		margin-right: 0;
-		margin-left: 1rem;
-	}
-
-	.tabs #tab-4 img {
-		margin-top: 0;
-		margin-bottom: 0;
+	.tabs #tab-4 .icon-cards-area .card p {
+		margin-bottom: 0.5rem;
 	}
 
 
@@ -2284,23 +2273,28 @@ a:hover.back-to-top {
 		/*padding-bottom: 6.5rem;*/
 	}
 
-	.tabs #tab-1 .card.first {
-		/*margin-top: 4.25rem;*/
+	.tabs #tab-1 .container {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
 	}
 
-	.tabs #tab-1 .card {
-		margin-bottom: 0.75rem;
+	.tabs #tab-1 .text-area {
+		margin-top: 1.5rem;
+		margin-right: 1rem;
+		margin-left: 1rem;
 	}
 
-	.tabs #tab-1 .card.left-pane .text-wrapper,
-	.tabs #tab-1 .card.right-pane .text-wrapper {
-		width: 23%;
-		display:inline;
+	.tabs #tab-1 .icon-cards-area {
+		margin-right: 1rem;
+		margin-left: 1rem;
 	}
 
-	.tabs #tab-1 img {
-		margin-top: 0;
+	.tabs #tab-1 .icon-cards-area .card {
+		margin-right: 3.875rem;
 	}
+	
+
+
 
 	.tabs #tab-2 .container {
 		padding-right: 2.5rem;
@@ -2341,22 +2335,24 @@ a:hover.back-to-top {
 		margin-left: 1rem;
 	}
 
-	.tabs #tab-4 .card.first {
-		/*margin-top: 4.25rem;*/
+	.tabs #tab-4 .container {
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
 	}
 
-	.tabs #tab-4 .card {
-		margin-bottom: 0.75rem;
+	.tabs #tab-4 .text-area {
+		margin-top: 1.5rem;
+		margin-right: 1rem;
+		margin-left: 1rem;
 	}
 
-	.tabs #tab-4 .card.left-pane .text-wrapper,
-	.tabs #tab-4 .card.right-pane .text-wrapper {
-		width: 23%;
-		display:inline;
+	.tabs #tab-4 .icon-cards-area {
+		margin-right: 1rem;
+		margin-left: 1rem;
 	}
 
-	.tabs #tab-4 img {
-		margin-top: 0;
+	.tabs #tab-4 .icon-cards-area .card {
+		margin-right: 3.875rem;
 	}
 	/* end of features */
 
