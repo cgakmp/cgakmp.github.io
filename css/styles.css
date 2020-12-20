@@ -872,7 +872,7 @@ font:500 1rem/1.5rem "Montserrat", sans-serif; /*title menu font size*/
 /************************/
 .tabs {
 	padding-top: 5.5rem;
-	padding-bottom: 4.25rem;
+/*	padding-bottom: 2rem;*/
 	background-color:#a6dbfa;
 }
 
@@ -2270,7 +2270,7 @@ a:hover.back-to-top {
 
 	/* Features */
 	.tabs {
-		padding-bottom: 4rem;
+		padding-bottom: 1rem;
 	}
 
 	.tabs #tab-1 .container {
